@@ -1,0 +1,18 @@
+spring:
+  #Application
+  application:
+    name: Ecommerce-Api-website
+  #docker
+  docker:
+    compose:
+      enabled: true
+      file: docker-compose.yml
+  #DATASOURCE
+  datasource:
+    username: sa
+    password: Tien@3010
+  #JPA
+  jpa:
+    properties:
+      hibernate:
+        dialect:
